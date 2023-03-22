@@ -70,8 +70,8 @@ a:hover {
 
 .middle-container {
 
-  padding-top: 3em;
-  padding-bottom: 3em;
+  padding-top: 5em;
+  padding-bottom: 5em;
   max-width: 850px;
   margin-right: auto;
   margin-left: auto;
@@ -138,6 +138,10 @@ a:hover {
   text-align: center;
   width: 100%;
   height: auto;
+  animation-name: spin;
+  animation-duration: 40000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 
 .nt-box{
@@ -164,6 +168,7 @@ a:hover {
   width: 100%;
 }
 
+
 .code-img {
   width: 280px;
 
@@ -174,6 +179,9 @@ a:hover {
   width: 250px;
 
 }
+
+.clearing { clear: both; }
+
 
 .btn {
   background: #11cdd4;
@@ -260,3 +268,14 @@ a:hover {
 
   0% { opacity: 0; }
   100% { opacity: 1; }
+
+}
+
+@keyframes spin {
+  from {
+      transform:rotate(0deg);
+  }
+  to {
+      transform:rotate(360deg);
+  }
+}
