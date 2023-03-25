@@ -33,6 +33,19 @@ p {
   overflow: hidden;
 }
 
+ul {
+  line-height: 2;
+  text-align: left;
+  padding-right: 14px;
+  padding-left: 14px;
+  overflow: hidden;
+}
+
+li {
+  align-content: center;
+}
+
+
 hr {
   border: dotted #EAF6F6 6px;
   border-bottom: none;
@@ -63,7 +76,6 @@ a:hover {
   max-width: 970px;
   margin-right: auto;
   margin-left: auto;
-  overflow: hidden;
   animation: fadeIn 0.5s ease-out forwards;
 }
 
@@ -91,7 +103,7 @@ a:hover {
 
 .skill-row {
   width: 100%;
-  padding-top: 3rem;
+  padding-top: 5rem;
 }
 
 .pro {
@@ -103,10 +115,31 @@ a:hover {
   max-width: 480px;
 }
 
+.cloud-box {
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+}
 
 .contact-message {
   max-width: 480px;
   margin: 40px auto 60px;
+}
+
+.contact-box {
+  display: grid;
+  grid-template-columns: repeat(3,auto);
+  justify-content: center;
+}
+
+.contact-icon {
+  font-size: 60px;
+  display: inline-grid;
+
+}
+
+.logo-text {
+  font-size: 16px;
 }
 
 .copyright {
@@ -116,14 +149,14 @@ a:hover {
 }
 
 .top-cloud {
-  position: absolute;
-  right: -5em;
+  position: relative;
+  right: -13em;
 }
 
 
 .bottom-cloud {
-  position: absolute;
-  left: -5em;
+  position: relative;
+  left: -12em;
 
 }
 
@@ -166,19 +199,35 @@ a:hover {
 
 .casa {
   width: 100%;
+  position: relative;
+  top: 162px;
+  margin-top: -160px;
 }
 
 
-.code-img {
-  width: 280px;
+.icon0-img {
+  width: 250px;
+
+}
+
+
+.icon1-img {
+  width: 300px;
+
+}
+
+.icon2-img {
+  width: 240px;
 
  
 }
 
-.chilli-img {
-  width: 250px;
+.icon3-img {
+  width: 240px;
 
+ 
 }
+
 
 .clearing { clear: both; }
 
@@ -225,14 +274,12 @@ a:hover {
 @media (min-width: 720px) {
 
 .top-cloud {
-  position: absolute;
-  right: 2em;
+  right: -24em;
 }
 
 
 .bottom-cloud {
-  position: absolute;
-  left: 2em;
+  left: -24em;
 }
 
 .skill-col{
@@ -240,18 +287,33 @@ a:hover {
   grid-template-columns: repeat(2, 280px);
 }
 
-.code-img {
+.icon0-img {
 
   float: left;
   margin-right: 30px;
  
 }
 
-.chilli-img {
+.icon1-img {
 
   float: right;
   margin-left: 30px;
 }
+
+.icon2-img {
+
+  float: left;
+  margin-right: 30px;
+ 
+}
+
+.icon3-img {
+
+  float: right;
+  margin-left: 30px;
+}
+
+
 
 .skill-row{
   text-align: left;
