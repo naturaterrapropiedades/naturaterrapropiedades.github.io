@@ -31,7 +31,7 @@ h3 {
 p {
   line-height: 2;
   text-align: justify;
-  hyphens: auto;  
+  hyphens: manual;  
   overflow: hidden;
 }
 
