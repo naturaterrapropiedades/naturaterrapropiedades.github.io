@@ -30,6 +30,8 @@ h3 {
 
 p {
   line-height: 2;
+  text-align: justify;
+  hyphens: auto;  
   overflow: hidden;
 }
 
@@ -87,8 +89,8 @@ a:hover {
   max-width: 850px;
   margin-right: auto;
   margin-left: auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 13px;
+  padding-right: 13px;
 }
 
 
@@ -96,6 +98,7 @@ a:hover {
   background-color: #27549B;
   padding: 50px 0 20px;
 }
+
 
 .profile {
   width: 100%;
@@ -146,6 +149,7 @@ a:hover {
   color: #EAF6F6;
   font-size: 0.75rem;
   padding: 20px 0;
+  text-align: center;
 }
 
 .top-cloud {
@@ -192,6 +196,10 @@ a:hover {
 
 }
 
+.slogan p{
+  text-align: center;
+}
+
 #casa-box{
   margin: 0 auto;
   max-width: 540px;
@@ -228,6 +236,9 @@ a:hover {
  
 }
 
+.insta-img{
+  width: 200px;
+}
 
 .clearing { clear: both; }
 
@@ -263,6 +274,10 @@ a:hover {
 
 @media (min-width: 520px) {
 
+p {
+  hyphens: none;  
+}
+
 .middle-container{
   padding-left: 30px;
   padding-right: 30px;
@@ -272,6 +287,14 @@ a:hover {
 
 
 @media (min-width: 720px) {
+
+.contact-me p{
+  text-align: center;
+}
+
+.profile p{
+  text-align: center;
+}
 
 .top-cloud {
   right: -24em;
